@@ -1,0 +1,18 @@
+include<stdio.h>
+int main(){
+ int num,times;
+ printf("Enter the number of times to be printed : ");
+ scanf("%d",&times);
+ for(int i=1;i<=times;i++){
+ for(int j=0;j<i;j++){
+ printf("%d ",i);
+ }
+ printf("\n");
+ }
+ for(int l=times-1;l>0;l--){
+ for(int k=0;k<l;k++){
+ printf("%d ",l);
+ }
+ printf("\n");
+ }
+}
