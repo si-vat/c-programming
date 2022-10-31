@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+  int total,staff,nonteaching_staff,students,totalstaff;
+  printf("enter the total number in clg= ");
+  scanf("%d",&total);
+  printf("enter the staff in clg");
+  scanf("%d",&staff);
+  nonteaching_staff=staff/3;
+  printf("nonteaching_staff =%d\n",nonteaching_staff);
+  totalstaff=nonteaching_staff+staff;
+  printf("total staff in clg=%d\n",totalstaff);
+  students=total-totalstaff;
+  printf("students in the clg =%d",students);
+    return 0;
+}
